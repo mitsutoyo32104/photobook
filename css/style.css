@@ -72,6 +72,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .detail__inner {
+    display: block;
+  }
+}
 .detail__img {
   width: 45%;
 }
@@ -116,7 +121,7 @@ body {
 .char {
   display: inline-block;
   animation-name: text-wave;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-direction: normal;

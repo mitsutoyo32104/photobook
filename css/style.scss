@@ -56,6 +56,10 @@
     &__inner {
         display: flex;
         justify-content: space-between;
+
+        @include mq() {
+            display: block;
+        }
     }
 
     &__img {
@@ -111,7 +115,7 @@
 
 .char {
     display: inline-block;
-    @include animation($name: text-wave, $duration: 3s);
+    @include animation($name: text-wave, $duration: 2s);
 
     @for $i from 1 through 7 {
         &:nth-child(#{$i}) {
