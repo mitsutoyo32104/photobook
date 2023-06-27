@@ -111,4 +111,47 @@ body {
 }
 .footer .copyright {
   font-size: 0.5rem;
+}
+
+.char {
+  display: inline-block;
+  animation-name: text-wave;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.char:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.char:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.char:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.char:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.char:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.char:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.char:nth-child(7) {
+  animation-delay: 0.7s;
+}
+
+@keyframes text-wave {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  80%, 100% {
+    transform: none;
+  }
 }/*# sourceMappingURL=style.css.map */
