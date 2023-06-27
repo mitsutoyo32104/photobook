@@ -1,58 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHOTO BOOK</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div id="global-container">
-        <header class="header">
-            <h1 class="header__logo"><img src="img/logo.svg"></h1>
-        </header>
-        <div class="mainvisual">
-            <img src="img/mainvisual.jpg">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PHOTO BOOK</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="global-container">
+            <header class="header">
+                <h1 class="header__logo"><img src="img/logo.svg" /></h1>
+            </header>
+            <div class="mainvisual">
+                <img src="img/mainvisual.jpg" />
+            </div>
+            <section class="index container2">
+                <div class="index__inner">
+                    <h2 class="section-title">
+                        <span class="char">I</span>
+                        <span class="char">N</span>
+                        <span class="char">D</span>
+                        <span class="char">E</span>
+                        <span class="char">X</span>
+                    </h2>
+                    <ol class="index__main">
+                        <li class="index__item">
+                            タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+                        </li>
+                        <li class="index__item">
+                            タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+                        </li>
+                        <li class="index__item">
+                            タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+                        </li>
+                        <li class="index__item">
+                            タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+                        </li>
+                        <li class="index__item">
+                            タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <section class="detail container">
+                <h2 class="section-title">
+                    <span class="char">D</span>
+                    <span class="char">E</span>
+                    <span class="char">T</span>
+                    <span class="char">A</span>
+                    <span class="char">I</span>
+                    <span class="char">L</span>
+                </h2>
+                <div class="detail__inner">
+                    <div class="detail__img">
+                        <img src="img/detail.jpg" alt="" />
+                    </div>
+                    <div class="detail__text">
+                        <h3 class="detail__subtitle">
+                            タイトルタイトルタイトル
+                        </h3>
+                        <dl class="detail__list">
+                            <dt>著者</dt>
+                            <dd>タイトルタイトルタイトル</dd>
+                            <dt>出版社</dt>
+                            <dd>タイトルタイトルタイトル</dd>
+                            <dt>発行年</dt>
+                            <dd>タイトルタイトルタイトル</dd>
+                        </dl>
+                        <p class="detail__introduction">
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                        </p>
+                        <a
+                            class="detail__link"
+                            href="#"
+                            rel="”noopener"
+                            noreferrer”
+                            >オンラインストアで見る</a
+                        >
+                    </div>
+                </div>
+            </section>
+            <footer class="footer container">
+                <p class="copyright">&copy; 2020 PHOTO BOOK</p>
+            </footer>
         </div>
-        <section class="index container2">
-            <div class="index__inner">
-                <h2 class="section-title">INDEX</h2>
-                <ol class="index__main">
-                    <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-                    <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-                    <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-                    <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-                    <li class="index__item">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-                </ol>
-            </div>
-        </section>
-        <section class="detail container">
-            <h2 class="section-title">DETAIL</h2>
-            <div class="detail__inner">
-                <div class="detail__img">
-                    <img src="img/detail.jpg" alt="">
-                </div>
-                <div class="detail__text">
-                    <h3 class="detail__subtitle">
-                        タイトルタイトルタイトル
-                    </h3>
-                    <dl class="detail__list">
-                        <dt>著者</dt>
-                        <dd>タイトルタイトルタイトル</dd>
-                        <dt>出版社</dt>
-                        <dd>タイトルタイトルタイトル</dd>
-                        <dt>発行年</dt>
-                        <dd>タイトルタイトルタイトル</dd>
-                    </dl>
-                    <p class="detail__introduction">テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
-                    <a class="detail__link" href="#" rel=”noopener noreferrer”>オンラインストアで見る</a>
-                </div>
-            </div>
-        </section>
-        <footer class="footer container">
-            <p class="copyright">&copy; 2020 PHOTO BOOK</p>
-        </footer>
-    </div>
-</body>
+    </body>
 </html>
