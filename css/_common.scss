@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'media-mixin' as *;
 
 * {
     margin: 0;
@@ -15,9 +16,16 @@ body {
     margin: 0 auto;
 }
 
+#top-container {
+    @include mq() {
+        padding: 0 40px;
+    }
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 
 .section-title {
